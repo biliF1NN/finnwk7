@@ -1,0 +1,23 @@
+---
+title: "average death vs death rate by drinks"
+author: "haoxu wang"
+date: 2020-12-01T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+Add data
+```{r}
+re_data=read.csv('C:/Users/Admin/Desktop/UNSW/beh_alcafdth_lhn_snap.csv', skip=3)
+
+```
+
+
+Add viasials
+```{r}
+readRDS('‪C:/Users/Admin/Desktop/UNSW/AHL_DEATH.R',refhook = NULL)
+```
